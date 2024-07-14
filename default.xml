@@ -21,34 +21,40 @@
   <include name="vendor.xml"/>
 
   <!-- AOSPA -->
-  <remote  name="aospa"
-           fetch=".."
-           review="gerrit.aospa.co"
-           revision="uvite"/>
+  <remote name="aospa"
+          fetch=".."
+          review="gerrit.aospa.co"
+          revision="uvite"/>
 
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org"
-           revision="uvite" />
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org"
+          revision="uvite" />
 
-  <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario"
-           revision="uvite" />
+  <remote name="blobs"
+          fetch="https://github.com/ThankYouMario"
+          revision="uvite" />
 
-  <remote  name="blobs-gitlab"
-           fetch="https://gitlab.com/ThankYouMario"
-           revision="uvite" />
+  <remote name="blobs-gitlab"
+          fetch="https://gitlab.com/ThankYouMario"
+          revision="uvite" />
 
-  <remote  name="github"
-           fetch="https://github.com" />
+  <remote name="github"
+          fetch="https://github.com" />
 
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
+  <remote name="github-ssh"
+          fetch="ssh://git@github.com" />
 
-  <remote  name="gitlab"
-           fetch="https://gitlab.com" />
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <!-- PenguinOS -->
+  <remote name="penguin"
+          fetch="https://github.com/Project-PenguinOS"
+          revision="unity"/>
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="penguin.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
