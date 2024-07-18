@@ -2,19 +2,10 @@
 <manifest>
 
   <!-- Build and Core -->
-  <remove-project name="platform/art" />
-  <project path="art" name="AOSPA/android_art" remote="aospa" />
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
   <remove-project name="platform/build/bazel" />
   <project path="build/bazel" name="AOSPA/android_build_bazel" remote="aospa" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>
-  <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="platform/libcore" />
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" />
@@ -63,8 +54,6 @@
   <project path="external/wpa_supplicant_8" name="AOSPA/android_external_wpa_supplicant_8" remote="aospa" />
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
   <remove-project name="platform/frameworks/proto_logging" />
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
