@@ -52,6 +52,10 @@
           fetch="https://github.com/Project-PenguinOS"
           revision="unity"/>
 
+  <remote name="penguin-xe"
+          fetch="https://github.com/penguin-xe"
+          revision="unity"/>
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="penguin.xml"/>
