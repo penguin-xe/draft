@@ -44,8 +44,6 @@
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
   <remove-project name="platform/frameworks/libs/modules-utils" />
   <project path="frameworks/libs/modules-utils" name="AOSPA/android_frameworks_libs_modules-utils" remote="aospa" />
 
@@ -78,8 +76,6 @@
   <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" />
   <remove-project name="platform/packages/modules/common" />
   <project path="packages/modules/common" name="AOSPA/android_packages_modules_common" remote="aospa" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="aospa" />
   <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
