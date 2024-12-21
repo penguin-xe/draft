@@ -109,6 +109,8 @@
   <project path="system/vold" name="android_system_vold" remote="penguin-xe" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="android_system_nfc" remote="penguin-xe" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="penguin-xe" />
 
   <!-- Toolchain -->
   <remove-project name="toolchain/pgo-profiles" />
